@@ -208,15 +208,20 @@
 //   console.log(i);
 // }
 
-for (i = 1; i <= 20; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log("pingpong", i);
-  } else if (i % 3 === 0) {
-    console.log("ping", i);
-  }
-  else if (i % 5 === 0) {
-    console.log("pong", i);
-  } else {
-    console.log(i);
-  }
+// for (i = 1; i <= 20; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("pingpong", i);
+//   } else if (i % 3 === 0) {
+//     console.log("ping", i);
+//   }
+//   else if (i % 5 === 0) {
+//     console.log("pong", i);
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+function namearr(reverseName) {
+  return reverseName.split("").reverse().join("");
 }
+console.log(namearr("df"));
