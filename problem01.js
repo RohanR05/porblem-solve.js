@@ -221,7 +221,17 @@
 //   }
 // }
 
-function namearr(reverseName) {
-  return reverseName.split("").reverse().join("");
+// function namearr(reverseName) {
+//   return reverseName.split("").reverse().join("");
+// }
+// console.log(namearr("RohanKabir"));
+
+let total = 0;
+for (i = 1; i <= 20; i++) {
+  if (i % 2 === 1) {
+    console.log(i);
+    total = total + i;
+    // console.log(total);
+  }
 }
-console.log(namearr("df"));
+console.log(total);
