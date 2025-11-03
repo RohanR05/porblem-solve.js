@@ -193,13 +193,30 @@
 //   console.log(i);
 // }
 
-let total = 0;
-for (i = 3; i <= 100; i++) {
-  if (i % 2 === 0) {
-    total = total + i;
-    if (total >= 30) {
-      break
-    }
+// let total = 0;
+// for (i = 3; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     total = total + i;
+//     if (total >= 30) {
+//       break
+//     }
+//   }
+// }
+// console.log(total);
+
+// for (i = 0; i >= -10; i--) {
+//   console.log(i);
+// }
+
+for (i = 1; i <= 20; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("pingpong", i);
+  } else if (i % 3 === 0) {
+    console.log("ping", i);
+  }
+  else if (i % 5 === 0) {
+    console.log("pong", i);
+  } else {
+    console.log(i);
   }
 }
-console.log(total);
