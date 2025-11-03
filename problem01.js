@@ -229,9 +229,11 @@
 let total = 0;
 for (i = 1; i <= 20; i++) {
   if (i % 2 === 1) {
-    console.log(i);
     total = total + i;
-    // console.log(total);
+    console.log(total);
+    if (total === 25) {
+      break;
+    }
   }
 }
 console.log(total);
