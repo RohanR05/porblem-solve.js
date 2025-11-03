@@ -231,7 +231,7 @@ for (i = 1; i <= 20; i++) {
   if (i % 2 === 1) {
     total = total + i;
     console.log(total);
-    if (total === 25) {
+    if (total >= 50) {
       break;
     }
   }
