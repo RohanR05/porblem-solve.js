@@ -237,3 +237,8 @@
 //   }
 // }
 // console.log(total);
+
+function namearr(reverseName) {
+  return reverseName.reverse("").split("").join();
+}
+console.log(namearr("jkj"));
