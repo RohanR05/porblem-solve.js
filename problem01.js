@@ -239,6 +239,6 @@
 // console.log(total);
 
 function namearr(reverseName) {
-  return reverseName.reverse("").split("").join();
+  return reverseName.split("").reverse().join("");
 }
-console.log(namearr("jkj"));
+console.log(namearr("RohanKabir"));
