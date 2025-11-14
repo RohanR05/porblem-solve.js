@@ -226,14 +226,14 @@
 // }
 // console.log(namearr("RohanKabir"));
 
-let total = 0;
-for (i = 1; i <= 20; i++) {
-  if (i % 2 === 1) {
-    total = total + i;
-    console.log(total);
-    if (total >= 50) {
-      break;
-    }
-  }
-}
-console.log(total);
+// let total = 0;
+// for (i = 1; i <= 20; i++) {
+//   if (i % 2 === 1) {
+//     total = total + i;
+//     console.log(total);
+//     if (total >= 50) {
+//       break;
+//     }
+//   }
+// }
+// console.log(total);
