@@ -282,10 +282,30 @@
 // let halfarray = firstArray.slice(3, 6);
 // console.log(halfarray);
 
-let even = [];
-for (i = 1; i <= 10; i++) {
-  if (i % 2 === 0) {
-    even.push(i);
+// let even = [];
+// for (i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     even.push(i);
+//   }
+// }
+// console.log(even)
+
+let arrayOfNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+let arrayOfEven = [];
+let arrayOfOdd = [];
+let newArray = [];
+
+for (i = 0; i < arrayOfNum.length; i++) {
+  let num = arrayOfNum[i];
+
+  if (num % 2 === 0) {
+    arrayOfEven.unshift(num);
+  } else {
+    arrayOfOdd.unshift(num);
   }
 }
-console.log(even)
+
+newArray = [...arrayOfEven, ...arrayOfOdd];
+console.log(arrayOfEven);
+console.log(arrayOfOdd);
+console.log(newArray);
