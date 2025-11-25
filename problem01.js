@@ -294,18 +294,25 @@ let arrayOfNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 let arrayOfEven = [];
 let arrayOfOdd = [];
 let newArray = [];
+let newReverseArray = [];
 
 for (i = 0; i < arrayOfNum.length; i++) {
   let num = arrayOfNum[i];
 
   if (num % 2 === 0) {
-    arrayOfEven.unshift(num);
+    arrayOfEven.push(num);
   } else {
-    arrayOfOdd.unshift(num);
+    arrayOfOdd.push(num);
   }
 }
 
 newArray = [...arrayOfEven, ...arrayOfOdd];
+
+for (let j = 0; j < newArray.length; j++) {
+  newReverseArray.push(j);
+}
+
 console.log(arrayOfEven);
 console.log(arrayOfOdd);
 console.log(newArray);
+console.log(newReverseArray);
