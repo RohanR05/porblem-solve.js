@@ -255,11 +255,30 @@
 // }
 // console.log(sum);
 
-let sum = 0;
-for (let i = 0; i <= 10; i++) {
-  if (i % 2 === 1) {
-    console.log(i);
-    sum = sum + i;
-  }
-}
-console.log(sum);
+// let sum = 0;
+// for (let i = 0; i <= 10; i++) {
+//   if (i % 2 === 1) {
+//     console.log(i);
+//     sum = sum + i;
+//   }
+// }
+// console.log(sum);
+
+// let arrs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+
+// let rarrs = [];
+// for (i = 0; i < arrs.length; i++) {
+//   const num = arrs[i];
+//   rarrs.unshift(num);
+// }
+// console.log(rarrs);
+
+// function namee(namerr) {
+//   return namerr.split("").reverse().join("");
+// }
+// console.log(namee("Rohan Kabir"));
+
+let firstArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+let halfarray = firstArray.slice(3, 6);
+console.log(halfarray);
+ 
