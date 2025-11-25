@@ -281,3 +281,11 @@
 // let firstArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 // let halfarray = firstArray.slice(3, 6);
 // console.log(halfarray);
+
+let even = [];
+for (i = 1; i <= 10; i++) {
+  if (i % 2 === 0) {
+    even.push(i);
+  }
+}
+console.log(even)
