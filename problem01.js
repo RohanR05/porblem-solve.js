@@ -328,3 +328,15 @@
 //     console.log(i);
 //   }
 // }
+
+let mainArray = [1, 2, 3, 3, 4, 4, 4, 4];
+let arraySingle = [];
+
+for (let i = 0; i < mainArray.length; i++) {
+  let num = mainArray[i];
+  if (!arraySingle.includes(num)) {
+    arraySingle.push(num);
+  }
+}
+
+console.log(arraySingle);
