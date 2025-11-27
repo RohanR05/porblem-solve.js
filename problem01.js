@@ -350,3 +350,13 @@
 //   }
 // }
 // console.log(largeNum);
+
+let mainArray = [1, 2, 3, 4, 5, 6];
+let largeNum = mainArray[0];
+
+for (i = 0; i < mainArray.length; i++) {
+  if (mainArray[i] > largeNum) {
+    largeNum = mainArray[i];
+  }
+}
+console.log(largeNum);
