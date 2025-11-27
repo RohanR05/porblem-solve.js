@@ -361,3 +361,14 @@
 //   }
 // }
 // console.log(simpleArray);
+
+let mainArray = [1, , 8, 2, 3, 4, 5, 6, 1, 1, -1];
+let largeNum = mainArray[0];
+
+for (i = 0; i < mainArray.length; i++) {
+  if (mainArray[i] < largeNum) {
+    largeNum = mainArray[i];
+  }
+}
+
+console.log(largeNum);
