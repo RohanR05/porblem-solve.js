@@ -357,7 +357,7 @@ let simpleArray = [];
 for (i = 0; i < mainArray.length; i++) {
   let num = mainArray[i];
   if (!simpleArray.includes(num)) {
-    simpleArray.push(num);
+    simpleArray.unshift(num);
   }
 }
 console.log(simpleArray);
