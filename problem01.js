@@ -351,13 +351,13 @@
 // }
 // console.log(largeNum);
 
-let mainArray = [1, 2, 3, 4, 4, 5, 5];
-let simpleArray = [];
+// let mainArray = [1, 2, 3, 4, 4, 5, 5];
+// let simpleArray = [];
 
-for (i = 0; i < mainArray.length; i++) {
-  let num = mainArray[i];
-  if (!simpleArray.includes(num)) {
-    simpleArray.unshift(num);
-  }
-}
-console.log(simpleArray);
+// for (i = 0; i < mainArray.length; i++) {
+//   let num = mainArray[i];
+//   if (!simpleArray.includes(num)) {
+//     simpleArray.unshift(num);
+//   }
+// }
+// console.log(simpleArray);
