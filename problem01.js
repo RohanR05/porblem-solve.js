@@ -375,3 +375,14 @@
 // singleArray.sort((b, a) => a - b);
 
 // console.log(singleArray);
+
+let mainArray = [1, 2, 3, 4];
+let largeNum = mainArray[0];
+
+for (i = 0; i < mainArray.length; i++) {
+  if (mainArray[i] > largeNum) {
+    largeNum = mainArray[i];
+  }
+}
+
+console.log(largeNum);
