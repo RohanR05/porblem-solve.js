@@ -386,3 +386,16 @@
 // }
 
 // console.log(largeNum);
+
+let mainArray = [1, 2, 3, 4, 5, 5, 5, -1, -2];
+let singleArray = [];
+
+for (i = 0; i < mainArray.length; i++) {
+  let num = mainArray[i];
+  if (!singleArray.includes(num)) {
+    singleArray.push(num);
+  }
+}
+singleArray.sort((a, b) => a - b);
+
+console.log(singleArray);
