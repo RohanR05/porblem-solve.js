@@ -362,13 +362,16 @@
 // }
 // console.log(simpleArray);
 
-let mainArray = [1, , 8, 2, 3, 4, 5, 6, 1, 1, -1];
-let largeNum = mainArray[0];
+// let mainArray = [1, "3", 8, 2, 3, 4, 5, 6, 1, 1, -1];
+// let arr = mainArray.map(Number);
+// let singleArray = [];
 
-for (i = 0; i < mainArray.length; i++) {
-  if (mainArray[i] < largeNum) {
-    largeNum = mainArray[i];
-  }
-}
+// for (i = 0; i < arr.length; i++) {
+//   let num = arr[i];
+//   if (!singleArray.includes(num)) {
+//     singleArray.push(num);
+//   }
+// }
+// singleArray.sort((b, a) => a - b);
 
-console.log(largeNum);
+// console.log(singleArray);
