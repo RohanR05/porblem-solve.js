@@ -413,6 +413,14 @@
 
 // console.log(largeNum);
 
-let mainArray=[1,2,3,4,5,6,6,6,6]
-let singleArray=[]
-console.log(singleArray)
+let mainArray = [1, 2, 3, 4, 5, 6, 6, 6, 69, 7, 8, 9];
+let singleArray = [];
+
+for (i = 0; i < mainArray.length; i++) {
+  let num = mainArray[i];
+  if (!singleArray.includes(num)) {
+    singleArray.push(num);
+  }
+}
+singleArray.sort((a, b) => a - b);
+console.log(singleArray);
