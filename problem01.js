@@ -401,3 +401,8 @@
 // console.log(singleArray);
 
 // let mainArray 
+
+let mainArray=[1,2,3,4,5,6,7]
+let largeNum=mainArray[0]
+
+console.log(largeNum)
