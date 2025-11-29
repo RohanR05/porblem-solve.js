@@ -402,7 +402,7 @@
 
 // let mainArray
 
-let mainArray = [1, 2, 3, 4, 5, 6, 7];
+// let mainArray = [1, 2, 3, 4, 5, 6, 7];
 // let largeNum = mainArray[0];
 
 // for (i = 0; i < mainArray.length; i++) {
@@ -412,3 +412,7 @@ let mainArray = [1, 2, 3, 4, 5, 6, 7];
 // }
 
 // console.log(largeNum);
+
+let mainArray=[1,2,3,4,5,6,6,6,6]
+let singleArray=[]
+console.log(singleArray)
