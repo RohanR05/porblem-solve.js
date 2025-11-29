@@ -400,9 +400,15 @@
 
 // console.log(singleArray);
 
-// let mainArray 
+// let mainArray
 
-let mainArray=[1,2,3,4,5,6,7]
-let largeNum=mainArray[0]
+let mainArray = [1, 2, 3, 4, 5, 6, 7];
+let largeNum = mainArray[0];
 
-console.log(largeNum)
+for (i = 0; i < mainArray.length; i++) {
+  if (mainArray.length > largeNum) {
+    largeNum = mainArray[i];
+  }
+}
+
+console.log(largeNum);
