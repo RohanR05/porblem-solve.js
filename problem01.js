@@ -400,7 +400,4 @@
 
 // console.log(singleArray);
 
-let mainArray = [1, 2, 3, 4, "5"];
-let arr = mainArray.map(Number);
-
-console.log(arr);
+// let mainArray 
