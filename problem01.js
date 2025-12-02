@@ -1,11 +1,13 @@
-let mainArray = [1, 2, 3, 4, 5, 6, 7, 8, -9, 0];
-let largeNum = mainArray[0];
+let mainArray = [1, 2, 3, 4, 5, 6, 6, 6, 6 - 1, -2, -3];
+let singleArray = [];
 
 for (let i = 0; i < mainArray.length; i++) {
   let num = mainArray[i];
-  if (num > largeNum) {
-    largeNum = num;
+  if (!singleArray.includes(num)) {
+    singleArray.push(num);
   }
 }
 
-console.log(largeNum);
+singleArray.sort((b, a) => a - b);
+
+console.log(singleArray);
