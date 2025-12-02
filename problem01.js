@@ -1,4 +1,5 @@
-function RevName(name) {
-  return name.split("").reverse().join("");
+function sum(a, b) {
+  total = a + b;
+  console.log(total);
 }
-console.log(RevName("Raha"));
+sum(3, 3);
