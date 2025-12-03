@@ -5,7 +5,7 @@ function totalOfEven(str) {
       total += s;
     }
   }
-  console.log(total);
+  console.log("total -", total);
   return total;
 }
 let str = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
