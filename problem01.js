@@ -1,6 +1,6 @@
 function totalOfOddandEven(str) {
-  let totalOfOdd = [];
-  let totalOfEven = [];
+  let totalOfOdd = 0;
+  let totalOfEven = 0;
   for (let s of str) {
     if (s % 2 === 0) {
       totalOfEven = s + totalOfEven;
