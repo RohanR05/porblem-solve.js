@@ -6,6 +6,6 @@ function discountPrice(str) {
   }
 }
 
-str = 180;
+str = 200;
 const price = discountPrice(str);
 console.log(price);
