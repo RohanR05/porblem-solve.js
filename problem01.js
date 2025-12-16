@@ -1,1 +1,0 @@
-console.log("Enough for today.")
