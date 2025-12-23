@@ -1,1 +1,3 @@
-console.log("Start English Speaking practice with help of AI,")
+document.getElementById("btn-submit").addEventListener("click", function () {
+  console.log("Hi");
+});
