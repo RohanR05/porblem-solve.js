@@ -1,3 +1,6 @@
 document.getElementById("btn-submit").addEventListener("click", function () {
-  console.log("Hi");
+  const textArea = document.getElementById("textArea");
+
+  const newComment = textArea.value;
+  console.log(newComment);
 });
